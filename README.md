@@ -1,21 +1,20 @@
 # Formulário de Cadastro
 
-## É um formulário de cadastro Angular Versão 11.0.70
+## É um formulário de cadastro Angular Versão 11.0.7
 
-Projeto em angular
+Projeto em angular, faz validação dos campos e aplica notificação  de erro ao tocar o input e sair
+quando o campo é required, consulta API ViaCep para localizar cadastro de endereços a partir do 
+Campo CEP. E traz os campos requisitados diretamente na tela em formato JSON.
 
-## **Build**
+## Requisitos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+`npm, Bootstrap e Angular`
 
-## Running unit tests
+## Para instalação dos requisitos
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+`npm installl bootstrap` e `ng new project`
 
-## Running end-to-end tests
+## Como rodar o projeto
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+O projeto está rodando na port 4200, localhost:4200. 
+Para rodar o projeto é necessário rodar `ng serve` no terminal.
